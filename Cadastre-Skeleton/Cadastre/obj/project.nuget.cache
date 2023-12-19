@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "An6efiVt0mBlpLdN6ubImHTBtAKVSfLWMmJo7suNrOL0TECzh/4kID2XBFCgzAGQSyY97y64qTEuYGnqiy48VA==",
+  "dgSpecHash": "cBv7e9fLRe14/kHIzvMfP6SyQhM0O//uInKc0nMnaRFl+SLcMBTTYfwTaXPd/DaIyRHpU1SAxoeePzcq+0xaUA==",
   "success": true,
-  "projectFilePath": "D:\\SoftUni\\Entity-Framework-Retake-Exam---11.12.2023\\Cadastre-Skeleton\\Cadastre\\Cadastre.csproj",
+  "projectFilePath": "C:\\Users\\HP\\source\\repos\\Entity-Framework-Retake-Exam-11.12.2023\\Cadastre-Skeleton\\Cadastre\\Cadastre.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",

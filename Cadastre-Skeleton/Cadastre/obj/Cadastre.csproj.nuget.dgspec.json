@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SoftUni\\Entity-Framework-Retake-Exam---11.12.2023\\Cadastre-Skeleton\\Cadastre\\Cadastre.csproj": {}
+    "C:\\Users\\HP\\source\\repos\\Entity-Framework-Retake-Exam-11.12.2023\\Cadastre-Skeleton\\Cadastre\\Cadastre.csproj": {}
   },
   "projects": {
-    "D:\\SoftUni\\Entity-Framework-Retake-Exam---11.12.2023\\Cadastre-Skeleton\\Cadastre\\Cadastre.csproj": {
+    "C:\\Users\\HP\\source\\repos\\Entity-Framework-Retake-Exam-11.12.2023\\Cadastre-Skeleton\\Cadastre\\Cadastre.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SoftUni\\Entity-Framework-Retake-Exam---11.12.2023\\Cadastre-Skeleton\\Cadastre\\Cadastre.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\Entity-Framework-Retake-Exam-11.12.2023\\Cadastre-Skeleton\\Cadastre\\Cadastre.csproj",
         "projectName": "Cadastre",
-        "projectPath": "D:\\SoftUni\\Entity-Framework-Retake-Exam---11.12.2023\\Cadastre-Skeleton\\Cadastre\\Cadastre.csproj",
+        "projectPath": "C:\\Users\\HP\\source\\repos\\Entity-Framework-Retake-Exam-11.12.2023\\Cadastre-Skeleton\\Cadastre\\Cadastre.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\SoftUni\\Entity-Framework-Retake-Exam---11.12.2023\\Cadastre-Skeleton\\Cadastre\\obj\\",
+        "outputPath": "C:\\Users\\HP\\source\\repos\\Entity-Framework-Retake-Exam-11.12.2023\\Cadastre-Skeleton\\Cadastre\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
