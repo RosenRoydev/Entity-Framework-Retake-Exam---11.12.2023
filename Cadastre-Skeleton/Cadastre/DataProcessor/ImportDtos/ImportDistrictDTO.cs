@@ -23,10 +23,10 @@ namespace Cadastre.DataProcessor.ImportDtos
         [MinLength(DataValidators.DataValidators.DistrictNameMinLenght)]
         [MaxLength(DataValidators.DataValidators.DistrictNameMaxLenght)]
         [XmlElement("Name")]
-        public string Name { get; set; }
+        public string Name { get; set; } = null!;
 
         [Required]
-        [RegularExpression(@"^([A-Z]{2}-\d{5})")]
+        [RegularExpression(@"^([A-Z]{2}-\d{5})$")]
         [XmlElement("PostalCode")]
         public string PostalCode { get; set; } = null!;
 

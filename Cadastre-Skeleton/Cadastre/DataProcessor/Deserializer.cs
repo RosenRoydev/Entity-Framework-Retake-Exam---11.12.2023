@@ -57,13 +57,13 @@
                     if (dbContext.Properties.Any(p=> p.PropertyIdentifier == property.PropertyIdentifier) ||
                         validDistrict.Properties.Any(vd => vd.PropertyIdentifier == property.PropertyIdentifier))
                     {
-                        sb.Append(ErrorMessage); 
+                        sb.AppendLine(ErrorMessage); 
                         continue;
                     }
                     if(dbContext.Properties.Any(p => p.Address == property.Address) || 
                         validDistrict.Properties.Any(vd => vd.Address == property.Address))
                     {
-                        sb.Append(ErrorMessage);
+                        sb.AppendLine(ErrorMessage);
                         continue;
                     }
                     
@@ -114,7 +114,7 @@
                     citizen.PropertiesCitizens.Add(new PropertyCitizen
                     {
                         PropertyId = propertyId,
-                        CitizenId = citizen.Id,
+                        Citizen = citizen,
                     });
                 }
                 citizens.Add(citizen);

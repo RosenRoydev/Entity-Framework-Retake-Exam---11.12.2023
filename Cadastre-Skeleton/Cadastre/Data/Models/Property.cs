@@ -20,21 +20,21 @@ namespace Cadastre.Data.Models
         [Required]
         [MaxLength(DataValidators.DataValidators.PropertyIdentifierMaxLenght)]
         [MinLength(DataValidators.DataValidators.PropertyIdentifierMinLenght)]
-        public string PropertyIdentifier {  get; set; }
+        public string PropertyIdentifier { get; set; } = null!;
 
         [Required]
         [Range(0,int.MaxValue)]
         public int Area { get; set; }
 
-        [Required]
+        
         [MaxLength(DataValidators.DataValidators.DetailsMaxLenght)]
         [MinLength(DataValidators.DataValidators.DetailsMinLenght)]
-        public string Details { get; set; }
+        public string? Details { get; set; }
 
         [Required]
         [MinLength(DataValidators.DataValidators.AddressMinLenght)]
         [MaxLength(DataValidators.DataValidators.AddressMaxLenght)]
-        public string Address { get; set; }
+        public string Address { get; set; } = null!;
 
         [Required]
         public DateTime DateOfAcquisition { get; set; }

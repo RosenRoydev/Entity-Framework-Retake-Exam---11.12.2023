@@ -18,21 +18,21 @@ namespace Cadastre.DataProcessor.ImportDtos
         [XmlElement("Area")]
         public int Area { get; set; }
 
-        [Required]
+        
         [MaxLength(DataValidators.DataValidators.DetailsMaxLenght)]
         [MinLength(DataValidators.DataValidators.DetailsMinLenght)]
         [XmlElement("Details")]
-        public string Details { get; set; }
+        public string? Details { get; set; }
 
         [Required]
         [MinLength(DataValidators.DataValidators.AddressMinLenght)]
         [MaxLength(DataValidators.DataValidators.AddressMaxLenght)]
         [XmlElement("Address")]
-        public string Address { get; set; }
+        public string Address { get; set; } = null!;
 
         [Required]
         [XmlElement("DateOfAcquisition")]
-        public string DateOfAcquisition { get; set; }
+        public string DateOfAcquisition { get; set; } = null!;
     }
 }
 //< Property >
